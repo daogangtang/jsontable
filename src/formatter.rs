@@ -84,7 +84,9 @@ pub fn beatufly(url: &str) -> String {
         let mut row: Vec<String> = vec![];
         for j in 0..val_arr.len() {
             let col = &val_arr[j];
-            row.push(col[i].clone());
+            if i < col.len() {
+                row.push(col[i].clone());
+            }
         }
 
         arr2d.push(row);
