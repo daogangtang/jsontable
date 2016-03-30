@@ -1,0 +1,13 @@
+[package]
+name = "jsontable"
+version = "0.1.0"
+authors = ["Mike Tang <miketang84@outlook.com>"]
+
+[dependencies]
+
+serde = "0.7"
+serde_json = "0.7"
+serde_macros = "0.7"
+prettytable-rs = "0.6"
+hyper = "0.8"
+clap = "2.2"
