@@ -62,7 +62,8 @@ pub fn beatufly(url: &str) -> String {
                 entry_vec.push(val.as_f64().unwrap().to_string());
             }
             else {
-                // other type
+                // if null push blank string
+                entry_vec.push("".to_string());
             }
 
         }
